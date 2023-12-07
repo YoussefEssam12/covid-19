@@ -1,0 +1,267 @@
+@media (max-width:970px) {
+    nav {
+        & .container {
+            & .row {
+                & .nav-links {
+                    display: none;
+                }
+                & .bars {
+                    display: block;
+                }
+            }
+        }
+    }
+    main section {
+        & .container {
+            & .items {
+                width: 100%;
+                & .content {
+                    width: 100%;
+                    text-align: center;
+                    margin: auto;
+                }
+                & .banner {
+                    margin: auto;
+                    & img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    #section-2 {
+        & .container {
+            & .about {
+                flex-wrap: wrap;
+                margin: auto;
+                & .text {
+                    width: 100%;
+                }
+                & .what {
+                    margin: auto;
+                }
+            }
+        }
+    }
+    #section-3 .container .cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        & .card {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+    #section-4 .container .cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        & .card {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+    }
+    #section-4 .container .stay {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #section-4 .container .stay .at {
+        width: 100%;
+        margin: auto;
+    }
+    #section-4 .container .stay .bt {
+        width: 100%;
+        text-align: center;
+    }
+    #section-4 .container .cards .card .him .image {
+        width: 100%;
+        & img {
+            width: 15%;
+        }
+    }
+    #section-5 .container .cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        & .card {
+            width: 100%;
+        }
+    }
+    #section-5 .container .cards .card img {
+        width: 15%;
+    }
+    #section-5 .container {
+        width: 100%;
+        & .cont2 {
+            width: 100%;
+        }
+    }
+    #section-5 .container .cont2 .takesteps {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        & .caption {
+            width: 100%;
+        }
+        & .fimage {
+            width: 100%;
+            text-align: center;
+            & img {
+                width: 50%;
+            }
+        }
+    }
+    #section-5 .container .cont2 .washhands {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #section-5 .container .washhands .card {
+        width: 30%;
+    }
+    #section-6 .container .cont2 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #section-6 .container .cont2 .caption {
+        width: 100%;
+    }
+    #section-6 .container .cont2 .box {
+        width: 100%;
+    }
+    #section-7 .container .cont2 .protect {
+        flex-wrap: wrap;
+        & .item {
+            width: 100%;
+            margin: auto;
+            & #rev {
+                flex-direction: row-reverse;
+            }
+        }
+        & .item2 {
+            width: 100%;
+            margin: auto;
+            & img {
+                width: 50%;
+            }
+        }
+    }
+    #section-8 .container {
+        width: 100%;
+    }
+    #section-8 .container .cont2 .mainq {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        & .questions {
+            width: 95%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        & .ans {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+    }
+    #section-9 .container .cards {
+        flex-wrap: wrap;
+        & .card {
+            width: 100%;
+            margin: auto;
+        }
+    }
+    #section-10 .container .cont2 .footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #section-10 .container .cont2 .footer .covid-19 {
+        width: 50%;
+    }
+    #section-10 .container .cont2 .footer .links {
+        width: 50%;
+    }
+}
+
+@media (max-width:550px) {
+    main section {
+        & .container {
+            & .items {
+                & .content {
+                    & h2 {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    & .btns {
+                        flex-direction: column;
+                        & .bt {
+                            margin-bottom: 20px;
+                        }
+                    }
+                    & .cases {
+                        flex-direction: column;
+                        & div {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #section-4 .container .cards .card .him .image {
+        & img {
+            width: 30%;
+        }
+    }
+    #section-5 .container .cards .card img {
+        width: 25%;
+    }
+    #section-5 .container .washhands .card {
+        width: 50%;
+    }
+    #section-7 .container .cont2 .protect .item2 {
+        margin: auto;
+        margin-bottom: 20px;
+        & img {
+            width: 70%;
+        }
+    }
+    #section-10 .container .cont2 .footer {
+        text-align: center;
+    }
+    #section-10 .container .cont2 .footer .covid-19 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #section-10 .container .cont2 .footer .links {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #section-10 .container {
+        width: 95%;
+    }
+    #section-10 .container .cont2 {
+        width: 90%;
+    }
+}
+
+@media (max-width:450px) {
+    #section-5 .container .washhands .card {
+        width: 100%;
+    }
+}
+
+@media (max-width:350px) {
+    #section-2 .container .about .text h1 {
+        font-size: 30px;
+    }
+    #section-3 .container .heads h1 {
+        font-size: 30px;
+    }
+    #section-4 .container .heads h1 {
+        font-size: 30px;
+    }
+    #section-6 .container .cont2 .caption h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width:290px) {
+    body {
+        display: none;
+    }
+}
